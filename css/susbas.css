@@ -1,0 +1,118 @@
+.menu{
+	background-color: white;
+	height: 50px;
+	margin-top: 50px;
+	text-align: center;
+}
+.menuContent{
+	   width: 700px;
+}
+.menu ul{
+	list-style-type: none;
+	margin-left: -60px;
+	margin-top:-10px;
+}
+.menu ul li{
+	display: inline-block;
+    text-align: center;
+    padding: 20px;
+    font-family: raleway-regular;
+}
+.menu ul li:HOVER {
+	border-bottom: 1px solid;
+}
+.menu ul li a{
+	color: gray;
+	text-decoration: none;
+}
+.logo{
+	padding: 10px;
+}
+.logo img{
+	width: 130px;
+}
+.cart{
+	font-size: larger;
+	color: gray;
+}
+.icon{
+	padding: 10px;
+}
+
+/*BANNER*/
+#myCarousel{
+	height: 500px;
+	margin-top: 80px;
+}
+
+.item img{
+	width: 500px;
+}
+.item h1{
+	text-align: center;
+	font-size: 100px;
+	color: blue;
+}
+.carousel-indicators li{
+	background-color: black !important;
+}
+
+.carousel-inner .title-1{
+	color: #575757;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 5px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.carousel-inner .title-2{
+	color: #575757;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+.carousel-inner .title-3{
+	color: #666666;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+.carousel-inner .title-4{
+	color: #737373;
+    font-size: 16px;
+    line-height: 26px;
+    position: relative;
+}
+.carousel-inner button{
+	background-color: #666666;
+	padding: 10px;
+	width: 130px;
+	height: 40px;
+	border-radius: 5px;
+border-width: 1px;
+}
+.carousel-inner button a{
+	color: white;
+}
+.carousel-inner .title-container {
+    right: 10%;
+}
+.content{
+
+}
+.leftContent{
+ 	background-color: pink;
+ 
+}
+.rightContent{
+	background-color: green;
+
+}
